@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Mont';
+    src: url(fonte/Montserrat-Italic-VariableFont_wght.ttf);
+}
+body{
+    background-image: url(imagens/Vector.png);
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.logo {
+    margin-top: 38px;
+    margin-left: 10%;
+    
+}
+
+ul {
+    display: flex;
+    margin: 0; 
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    align-items: center; /* Alinhe os itens verticalmente no centro */
+    margin-top: 64px;
+    margin-left: 40%;
+}
+
+li {
+    list-style: none;
+    margin-left: 50px;
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.292px;
+    cursor: pointer;
+  
+    }
+li:hover{
+    border-bottom: 3px solid #8368F5;
+    
+}
+.li-roxo{
+    color:  #8368F5;
+}
+.btn-space {
+    margin-left: 20px; 
+}
+
+.btn-h-style {
+    width: 97px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background: linear-gradient(250.46deg, #8468F5 72.09%, #EC74E7 352.57%);
+    cursor: pointer;
+}
+
+.btn-space button {
+    margin-left: 10px; 
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    
+}
+.conteudo_esq{
+    margin-top: 0%;
+}
+h1{
+    font-family:Mont;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+p{
+    font-family: Mont;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.btn-email{
+    padding-left: 30px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 30%;
+    font-family: Mont; 
+   
+}
+h4{
+    font-family: Mont;   
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+svg{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.btn-download{
+    display: flex;
+    width: 153px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(88deg, #EC74E7 -45.12%, #8468F5 74.37%);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 35px 10px rgba(0,0,0,0.2);
+    
+}
+.input-n-btn{
+    display: flex;
+    align-items: center;
+    width: 511px;
+    height: 58.261px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.1);
+    margin-top: 20%;
+}
+.imagens{
+    align-items: column;
+    margin-top: 30%;
+}
+.imagens img{
+    cursor: pointer;
+    margin: 0;
+}
