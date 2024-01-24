@@ -28,7 +28,7 @@ ul {
 .menu {
     display: flex;
     width: 100%;
-    align-items: center; /* Alinhe os itens verticalmente no centro */
+    align-items: center; 
     margin-top: 64px;
     margin-left: 40%;
 }
