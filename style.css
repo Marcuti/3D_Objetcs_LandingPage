@@ -5,6 +5,7 @@
 body{
     background-image: url(imagens/Vector.png);
     background-size: cover;
+    overflow: hidden;
 }
 header {
     display: flex;
@@ -16,7 +17,7 @@ header {
 .logo {
     margin-top: 38px;
     margin-left: 10%;
-    
+    cursor: pointer;
 }
 
 ul {
@@ -42,12 +43,30 @@ li {
     line-height: normal;
     letter-spacing: 0.292px;
     cursor: pointer;
-  
+    position: relative;
     }
-li:hover{
-    border-bottom: 3px solid #8368F5;
+
+li::before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    margin-bottom: -2px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+li:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: #8368F5;
     
 }
+
 .li-roxo{
     color:  #8368F5;
 }
